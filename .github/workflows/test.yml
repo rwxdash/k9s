@@ -1,13 +1,9 @@
 name: K9s Checks
 
 on:
+  schedule:
+    - cron: '0 */1 * * *'
   workflow_dispatch:
-    push:
-    branches:
-      - master
-    tags:
-      - rc*
-      - v*
   pull_request:
     branches:
       - master
