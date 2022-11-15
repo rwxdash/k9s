@@ -2,7 +2,7 @@ name: K9s Checks
 
 on:
   schedule:
-    - cron: '0 */1 * * *'
+    - cron: '0 */5 * * *'
   workflow_dispatch:
   pull_request:
     branches:
