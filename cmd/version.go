@@ -46,3 +46,7 @@ func printTuple(fmat, section, value string, outputColor color.Paint) {
 	}
 	fmt.Fprintf(out, fmat, section, value)
 }
+
+func foresightUncoverage(ext string) string {
+	return "Foresight uncoverage file!"
+}
